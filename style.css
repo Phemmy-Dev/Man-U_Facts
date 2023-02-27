@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+}
+
+body {
+    background-color: #121212;
+    /* color: white; */
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background-color: white;
+    padding: 20px 40px;
+    border-radius: 10px;
+    width: 500px;
+}
+
+header {
+    font-size: 27px;
+    margin-bottom: 18px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.quote {
+    margin-bottom: 23px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgb(193, 190, 190);
+    padding-top: 10px;
+}
+
+.otherButtons i {
+    margin-right:20px;
+    background-color: #121212;
+    padding: 15px;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+#factButton {
+    border: none;
+    background-color: #121212;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    font-weight: 500;
+}
+
+#factButton:hover {
+    background-color: #272626 ;
+}
+
+@media screen and (max-width: 680px) {
+
+    .wrapper {
+    width: 350px;
+}
+
+.otherButtons i {
+    margin-right:10px;
+    background-color: #121212;
+    padding: 10px;
+    color: white;
+    border-radius: 30px;
+    cursor: pointer;
+}
+}
